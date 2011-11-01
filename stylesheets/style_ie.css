@@ -1,0 +1,7 @@
+.clearfix { zoom: 1; }
+#wrap, #content {
+ width: 704px 
+}
+#content .inner {
+ width: 501px 
+}
