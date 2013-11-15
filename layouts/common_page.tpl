@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 {% include "SiteHeader" %}
-     <title>{{site.name}} &gt; {{page.title}}</title>
+     <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
 	</head>
 	<body>
   <div id="wrap" class="clearfix">

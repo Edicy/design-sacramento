@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 {% include "SiteHeader" %}
-     <title>{{article.title}} &lt; {{page.title}} | {{site.name}}</title>
+    <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
    {{ blog.rss_link }}
 	</head>
 	<body>
@@ -30,6 +30,23 @@
        {% editable article.excerpt %}
       </div>
       {% editable article.body %}
+      
+      {% if editmode %}
+        <div class="cfx article-tags">
+            <div class="article-tag-icon"></div>
+            {% editable article.tags %}
+        </div>
+     {% else %}
+        {% unless article.tags == empty %}
+            <div class="cfx article-tags">
+                <div class="article-tag-icon"></div>
+                {% for tag in article.tags %}
+                    <a href="{{ article.page.url }}/tagged/{{ tag.path }}">{{ tag.name }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </div>
+        {% endunless %}
+      {% endif %}
+      
      </div>
      <a name="comments"></a>
      <table id="comments-table">
@@ -44,7 +61,7 @@
         {{comment.created_at | format_date:"%d. %B" }}
        </td>
        <td>
-        {{comment.body}}
+        {{comment.body_html}}
        </td>
       </tr>
       {% endfor %}

@@ -1,1 +1,244 @@
-{"name":"Sacramento","layouts":[{"component":true,"title":"SiteHeader","layout_name":"","content_type":"component","file":"components/siteheader.tpl"},{"component":true,"title":"Search","layout_name":"","content_type":"component","file":"components/search.tpl"},{"component":true,"title":"Langmenu","layout_name":"","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Mainmenu","layout_name":"","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"Submenu","layout_name":"","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"Thirdmenu","layout_name":"","content_type":"component","file":"components/thirdmenu.tpl"},{"component":true,"title":"JS","layout_name":"","content_type":"component","file":"components/js.tpl"},{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog_front","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog Article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"}],"author":"Tajo Oja","assets":[{"kind":"images","content_type":"image/png","filename":"search-bg.png","file":"images/search-bg.png"},{"kind":"images","content_type":"image/jpg","filename":"header-top.jpg","file":"images/header-top.jpg"},{"kind":"images","content_type":"image/png","filename":"edicy.png","file":"images/edicy.png"},{"kind":"images","content_type":"image/jpg","filename":"header-bottom.jpg","file":"images/header-bottom.jpg"},{"kind":"images","content_type":"image/png","filename":"mainmenu-bg.png","file":"images/mainmenu-bg.png"},{"kind":"images","content_type":"image/png","filename":"paperclip-top.png","file":"images/paperclip-top.png"},{"kind":"images","content_type":"image/jpg","filename":"sacramento-01b.jpg","file":"images/sacramento-01b.jpg"},{"kind":"images","content_type":"image/png","filename":"wrap-bg.png","file":"images/wrap-bg.png"},{"kind":"images","content_type":"image/png","filename":"coffeestain.png","file":"images/coffeestain.png"},{"kind":"images","content_type":"image/png","filename":"commentform-bg.png","file":"images/commentform-bg.png"},{"kind":"images","content_type":"image/png","filename":"bullet.png","file":"images/bullet.png"},{"kind":"stylesheets","content_type":"text/css","filename":"style_ie.css","file":"stylesheets/style_ie.css"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/jpg","filename":"thirdmenu-bg.jpg","file":"images/thirdmenu-bg.jpg"},{"kind":"images","content_type":"image/jpg","filename":"sheet.jpg","file":"images/sheet.jpg"},{"kind":"images","content_type":"image/jpg","filename":"submenu-bg.jpg","file":"images/submenu-bg.jpg"},{"kind":"images","content_type":"image/jpg","filename":"footer-bg.jpg","file":"images/footer-bg.jpg"},{"kind":"images","content_type":"image/png","filename":"header-bg-repeat.png","file":"images/header-bg-repeat.png"},{"kind":"images","content_type":"image/jpg","filename":"header-top2.jpg","file":"images/header-top2.jpg"},{"kind":"images","content_type":"image/jpg","filename":"header-bg-repeat.jpg","file":"images/header-bg-repeat.jpg"},{"kind":"images","content_type":"image/jpeg","filename":"sheet2.jpg","file":"images/sheet2.jpg"}],"preview_medium":"http://static.edicy.com/designs/previews/sacramento_medium.png","preview_small":"http://static.edicy.com/designs/previews/sacramento_small.jpg","description":"Sacramento design by Tajo Oja"}
+{
+  "preview_medium": "http://static.edicy.com/designs/previews/sacramento_medium.png",
+  "layouts": [
+    {
+      "file": "components/siteheader.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "SiteHeader",
+      "content_type": "component"
+    },
+    {
+      "file": "components/search.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "Search",
+      "content_type": "component"
+    },
+    {
+      "file": "components/langmenu.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "Langmenu",
+      "content_type": "component"
+    },
+    {
+      "file": "components/mainmenu.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "Mainmenu",
+      "content_type": "component"
+    },
+    {
+      "file": "components/submenu.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "Submenu",
+      "content_type": "component"
+    },
+    {
+      "file": "components/thirdmenu.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "Thirdmenu",
+      "content_type": "component"
+    },
+    {
+      "file": "components/js.tpl",
+      "component": true,
+      "layout_name": "",
+      "title": "JS",
+      "content_type": "component"
+    },
+    {
+      "file": "layouts/front_page.tpl",
+      "component": false,
+      "layout_name": "page_front",
+      "title": "Front page",
+      "content_type": "page"
+    },
+    {
+      "file": "layouts/common_page.tpl",
+      "component": false,
+      "layout_name": "page_default",
+      "title": "Common page",
+      "content_type": "page"
+    },
+    {
+      "file": "layouts/blog___news.tpl",
+      "component": false,
+      "layout_name": "blog_front",
+      "title": "Blog & News",
+      "content_type": "blog"
+    },
+    {
+      "file": "layouts/blog_article.tpl",
+      "component": false,
+      "layout_name": "blog_article",
+      "title": "Blog Article",
+      "content_type": "blog_article"
+    }
+  ],
+  "description": "Sacramento design by Tajo Oja",
+  "preview_small": "http://static.edicy.com/designs/previews/sacramento_small.jpg",
+  "assets": [
+    {
+      "file": "images/search-bg.png",
+      "kind": "images",
+      "filename": "search-bg.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/header-top.jpg",
+      "kind": "images",
+      "filename": "header-top.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/edicy.png",
+      "kind": "images",
+      "filename": "edicy.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/header-bottom.jpg",
+      "kind": "images",
+      "filename": "header-bottom.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/mainmenu-bg.png",
+      "kind": "images",
+      "filename": "mainmenu-bg.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/paperclip-top.png",
+      "kind": "images",
+      "filename": "paperclip-top.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/sacramento-01b.jpg",
+      "kind": "images",
+      "filename": "sacramento-01b.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/wrap-bg.png",
+      "kind": "images",
+      "filename": "wrap-bg.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/coffeestain.png",
+      "kind": "images",
+      "filename": "coffeestain.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/commentform-bg.png",
+      "kind": "images",
+      "filename": "commentform-bg.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/bullet.png",
+      "kind": "images",
+      "filename": "bullet.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "stylesheets/style_ie.css",
+      "kind": "stylesheets",
+      "filename": "style_ie.css",
+      "content_type": "text/css"
+    },
+    {
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css",
+      "content_type": "text/css"
+    },
+    {
+      "file": "images/thirdmenu-bg.jpg",
+      "kind": "images",
+      "filename": "thirdmenu-bg.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/sheet.jpg",
+      "kind": "images",
+      "filename": "sheet.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/submenu-bg.jpg",
+      "kind": "images",
+      "filename": "submenu-bg.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/footer-bg.jpg",
+      "kind": "images",
+      "filename": "footer-bg.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/header-bg-repeat.png",
+      "kind": "images",
+      "filename": "header-bg-repeat.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/header-top2.jpg",
+      "kind": "images",
+      "filename": "header-top2.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/header-bg-repeat.jpg",
+      "kind": "images",
+      "filename": "header-bg-repeat.jpg",
+      "content_type": "image/jpg"
+    },
+    {
+      "file": "images/sheet2.jpg",
+      "kind": "images",
+      "filename": "sheet2.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "images/header-tag.svg",
+      "kind": "images",
+      "filename": "header-tag.svg",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/tag.svg",
+      "kind": "images",
+      "filename": "tag.svg",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js",
+      "content_type": "text/javascript"
+    }
+  ],
+  "name": "Sacramento",
+  "author": "Tajo Oja"
+}

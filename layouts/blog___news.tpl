@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 {% include "SiteHeader" %}
-     <title>{{site.name}} &gt; {{page.title}}</title>
+    <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
    {{ blog.rss_link }}
 	</head>
 	<body>
@@ -23,6 +23,17 @@
     <!-- //header -->
     <div id="content">
       <div class="inner">
+      {% if tags %}
+        <div class="tagged-list-header">
+            <div class="header-tag-icon"></div>
+            {% if tags == empty %}
+                {{ "no_posts_tagged" | lc }}
+            {% else %}
+                {{ "posts_tagged" | lc }} '{{ tags | sort:"name" | map:"name" | join:"', '"}}'.
+            {% endif %}
+        </div>
+      {% endif %}
+      
      {% addbutton class="add-article" %}
       
      {% for article in articles %}
