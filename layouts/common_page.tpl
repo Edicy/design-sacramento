@@ -21,7 +21,7 @@
     </div>
     <!-- //header -->
     <div id="content" class="clearfix">
-      <div class="inner">
+      <div class="inner" data-search-indexing-allowed="true">
         {% content %}
       </div>
     </div>

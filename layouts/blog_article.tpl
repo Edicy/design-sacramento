@@ -26,10 +26,10 @@
           <div class="post">
       <h2>{% editable article.title %}</h2>
       {{article.created_at | format_date:"%d %B"}}, <a href="#comments">{{"comments_for_count" |lc }}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></a>
-      <div class="excerpt">
+      <div class="excerpt" data-search-indexing-allowed="true">
        {% editable article.excerpt %}
       </div>
-      {% editable article.body %}
+      <div data-search-indexing-allowed="true">{% editable article.body %}</div>
       
       {% if editmode %}
         <div class="cfx article-tags">
