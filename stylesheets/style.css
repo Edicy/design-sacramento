@@ -314,6 +314,7 @@ background: #fdf6b0;
     }
     #comments-table .commentator-name {
      width: 20%;
+     min-width: 75px;
      vertical-align: top;
     }
     #comments-table td {
@@ -477,3 +478,17 @@ input[type="text"], button { -webkit-appearance: none; }
     line-height: 1.4em;
 }
 html {  -webkit-text-size-adjust: none; }
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
+}
+
+#content .edy-btn-removecomment:hover {
+  background: none;
+}
+
+#content .edy-site-blog-comment:hover .edy-btn-removecomment {
+  text-decoration: none;
+}
