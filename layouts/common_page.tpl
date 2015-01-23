@@ -5,7 +5,7 @@
      <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
 	</head>
 	<body>
-  <div id="wrap" class="clearfix">
+  <div id="wrap" class="clearfix content-hyphenate">
    <div id="paperclip-top"></div>
    {% include "Search" %}
    <!--//search-->

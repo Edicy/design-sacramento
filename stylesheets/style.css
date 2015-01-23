@@ -5,6 +5,14 @@
   content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 body {
 margin: 0;
 background: url('../images/sacramento-01b.jpg?1') repeat center top;
@@ -240,7 +248,7 @@ background: #fdf6b0;
 }
    #footer {
     background: url('../images/footer-bg.jpg?1') repeat left top;
-    padding: 20px 0 17px 93px;
+    padding: 20px 20px 17px 93px;
    }
    #edicy {
     float: right;

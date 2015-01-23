@@ -6,7 +6,7 @@
    {{ blog.rss_link }}
 	</head>
 	<body>
-  <div id="wrap" class="clearfix">
+  <div id="wrap" class="clearfix content-hyphenate">
    <div id="paperclip-top"></div>
    {% include "Search" %}
    <!--//search-->
